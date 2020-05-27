@@ -14,7 +14,7 @@
 <f:view>
 
 <h:outputText value ="#{pBean.saludo}" />
-
+Hola Ahora
 <c:out value="${datos.ciudad}" default="desconocida"/>
 <c:set value="chao!" target="${pBean}" property="saludo"/>
 <h:outputText value ="#{pBean.saludo}" />
